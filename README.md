@@ -1,24 +1,22 @@
-# &lt;my-repo&gt;
+# &lt;collapse-selector&gt;
 
-> A bare minimum custom element starter-kit using [Polymer](http://www.polymer-project.org/).
->
-> Like [Yeoman](http://yeoman.io/)? Use the [generator-element](https://www.npmjs.org/package/generator-element) instead.
->
-> Looking for a working example? Check [hello-world-polymer](https://github.com/webcomponents/hello-world-polymer).
+Polymer Web Component to manage a list of selectable elements which can collapse per category.
+As implied in the name, it is based on `<core-collapse>` and `<core-selector>`.
+
 
 ## Demo
 
-[Check it live!](http://my-user.github.io/my-repo)
+[Check it live!](http://aldream.github.io/collapse-selector)
 
 ## Install
 
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install my-repo --save
+$ bower install collapse-selector --save
 ```
 
-Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
+Or [download as ZIP](https://github.com/Aldream/collapse-selector/archive/master.zip).
 
 ## Usage
 
@@ -31,16 +29,18 @@ Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/my-repo/dist/my-element.html">
+    <link rel="import" href="bower_components/collapse-selector/dist/my-element.html">
     ```
 
 3. Start using it!
 
     ```html
-    <my-element></my-element>
+    <collapse-selector></collapse-selector>
     ```
 
 ## Options
+
+_Coming soon..._
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
@@ -51,12 +51,6 @@ Attribute     | Options     | Default      | Description
 Method        | Parameters   | Returns     | Description
 ---           | ---          | ---         | ---
 `unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
 
 ## Development
 
@@ -102,7 +96,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/my-user/my-repo/releases).
+For detailed changelog, check [Releases](https://github.com/Aldream/collapse-selector/releases).
 
 ## License
 
