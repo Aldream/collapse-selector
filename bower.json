@@ -1,12 +1,17 @@
 {
-    "name": "my-repo",
+    "name": "collapse-selector",
     "version": "0.0.0",
-    "description": "My awesome Custom Element",
+    "description": "Polymer Web Component to manage a list of selectable elements which can collapse per category.",
     "license": "MIT",
-    "main": "dist/my-element.html",
+    "main": "dist/collapse-selector.html",
     "keywords": [
         "polymer",
-        "web-components"
+        "web-components",
+		"collapse",
+		"selector",
+		"select",
+		"list",
+		"accordion"
     ],
     "ignore": [
         "**/.*",
