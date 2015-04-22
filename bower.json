@@ -21,5 +21,6 @@
     "dependencies": {
         "polymer": "Polymer/polymer#^0.5.1",
 		"core-collapse": "Polymer/core-collapse#master",
+		"core-selector": "Polymer/core-selector#master"
     }
 }
