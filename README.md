@@ -1,7 +1,7 @@
 # &lt;collapse-selector&gt;
 
 Polymer Web Component to manage a list of selectable elements which can collapse per category.
-As implied in the name, it is based on `<core-collapse>` and `<core-selector>`.
+As implied in the name, it is using `<core-collapse>` and extending `<core-selector>`.
 
 
 ## Demo
