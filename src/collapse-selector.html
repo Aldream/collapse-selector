@@ -3,7 +3,7 @@
 <link rel="import" href="../bower_components/core-collapse/core-collapse.html">
 <link rel="import" href="../bower_components/core-item/core-item.html">
 
-<polymer-element name="collapse-selector" attributes="data categAttr multi">
+<polymer-element name="collapse-selector" attributes="data categAttr" extends="core-selector">
   <template>
 	<style>
 		.item.core-selected {
@@ -30,7 +30,7 @@
 			border-bottom-right-radius: 5px;
 		}
 	</style>
-	<core-selector target="{{$.collapses}}" itemsSelector="core-item" multi?="{{multi}}"></core-selector>
+	<shadow></shadow>
 	<div id="collapses">
 		<template repeat="{{data, categIndex in dataPerCateg}}">
 			<div class="heading" on-click="{{toggle}}" target="#collapse-{{data.formattedCateg}}">{{data.categ}}</div>
@@ -43,7 +43,7 @@
 			</core-collapse>
 		</template>
 	</div>
-</template>
+  </template>
   <script>
 
   Polymer('collapse-selector', {
@@ -51,14 +51,22 @@
 		this.shadowRoot.querySelector(sender.attributes['target'].value).toggle();
 	},
 	created: function() {
+		this.super();
         this.multi = false;
 		this.dataPerCateg = [];
     },
 	ready: function() {
+		this.target = this.$.collapses;
+		this.itemsSelector = "core-item";
 		this.organizedata2();
+		this.super();
 	},
 	
 	dataChanged: function() {
+		this.organizedata2();
+	},
+	
+	categAttrChanged: function() {
 		this.organizedata2();
 	},
 	
