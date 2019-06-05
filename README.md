@@ -6,7 +6,7 @@ As implied in the name, it is using `<core-collapse>` and extending `<core-selec
 
 ## Demo
 
-[Check it live!](http://aldream.github.io/collapse-selector)
+[Check it live!](http://benjaminplanche.github.io/collapse-selector)
 
 ## Install
 
@@ -16,7 +16,7 @@ Install the component using [Bower](http://bower.io/):
 $ bower install collapse-selector --save
 ```
 
-Or [download as ZIP](https://github.com/Aldream/collapse-selector/archive/master.zip).
+Or [download as ZIP](https://github.com/benjaminplanche/collapse-selector/archive/master.zip).
 
 ## Usage
 
@@ -96,7 +96,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/Aldream/collapse-selector/releases).
+For detailed changelog, check [Releases](https://github.com/benjaminplanche/collapse-selector/releases).
 
 ## License
 
